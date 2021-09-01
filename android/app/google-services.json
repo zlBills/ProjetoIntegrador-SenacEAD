@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082252069213",
+    "project_id": "projetointegrador-senacead",
+    "storage_bucket": "projetointegrador-senacead.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082252069213:android:96e38238629d4c22ec00b4",
+        "android_client_info": {
+          "package_name": "com.navegation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082252069213-1ccfmnla3esjt1om40s10e1le60c6mj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy235wJ73Tesp2QfWh2qBrqdG3rwET10k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082252069213-1ccfmnla3esjt1om40s10e1le60c6mj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
