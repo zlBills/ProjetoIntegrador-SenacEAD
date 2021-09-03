@@ -7,7 +7,8 @@
 /* eslint-disable prettier/prettier */
 import React, { Component } from 'react';
 import { ScrollView } from 'react-native';
-import { Box, Heading, AspectRatio, Text, Image, Center, Stack, NativeBaseProvider } from "native-base";
+import { Box, Heading, AspectRatio, Text, Center, Stack, NativeBaseProvider } from "native-base";
+import FastImage from 'react-native-fast-image';
 
 export const Example = () => {
     return (
@@ -17,7 +18,7 @@ export const Example = () => {
                     <Box>
                         <AspectRatio ratio={16 / 9} >
                             <Center>
-                                <Image height={150} borderRadius={10} width={250} source={require('../image/cerbero.png')} alt="image" />
+                                <FastImage height={150} borderRadius={10} width={250} source={require('../image/cerbero.jpg')} alt="image" />
                             </Center>
                         </AspectRatio>
                     </Box>
@@ -38,7 +39,7 @@ export const Example = () => {
                     <Box>
                         <AspectRatio ratio={16 / 9} >
                             <Center>
-                                <Image height={150} borderRadius={10} width={250} source={require('../image/orcs.png')} alt="image" />
+                                <FastImage height={150} borderRadius={10} width={250} source={require('../image/orcs.jpg')} alt="image" />
                             </Center>
                         </AspectRatio>
                     </Box>
@@ -59,7 +60,7 @@ export const Example = () => {
                     <Box >
                         <AspectRatio ratio={16 / 9}>
                             <Center>
-                                <Image height={150} borderRadius={10} width={250} source={require('../image/drifa.png')} alt="image" />
+                                <FastImage height={150} borderRadius={10} width={250} source={require('../image/drifa.jpg')} alt="image" />
                             </Center>
                         </AspectRatio>
                     </Box>
@@ -80,7 +81,7 @@ export const Example = () => {
                     <Box >
                         <AspectRatio ratio={16 / 9}>
                             <Center>
-                                <Image height={150} borderRadius={10} width={250} source={require('../image/pigmeu.png')} alt="image" />
+                                <FastImage height={150} borderRadius={10} width={250} source={require('../image/pigmeu.jpg')} alt="image" />
                             </Center>
                         </AspectRatio>
                     </Box>
@@ -101,7 +102,7 @@ export const Example = () => {
                     <Box >
                         <AspectRatio ratio={16 / 9}>
                             <Center>
-                                <Image height={150} borderRadius={10} width={250} source={require('../image/nezha.png')} alt="image" />
+                                <FastImage height={150} borderRadius={10} width={250} source={require('../image/nezha.jpg')} alt="image" />
                             </Center>
                         </AspectRatio>
                     </Box>
@@ -122,7 +123,7 @@ export const Example = () => {
                     <Box >
                         <AspectRatio ratio={16 / 9}>
                             <Center>
-                                <Image height={150} borderRadius={10} width={250} source={require('../image/goku.png')} alt="image" />
+                                <FastImage height={150} borderRadius={10} width={250} source={require('../image/goku.jpg')} alt="image" />
                             </Center>
                         </AspectRatio>
                     </Box>
@@ -143,7 +144,7 @@ export const Example = () => {
                     <Box >
                         <AspectRatio ratio={16 / 9}>
                             <Center>
-                                <Image height={150} borderRadius={10} width={250} source={require('../image/vale.png')} alt="image" />
+                                <FastImage height={150} borderRadius={10} width={250} source={require('../image/vale.jpg')} alt="image" />
                             </Center>
                         </AspectRatio>
                     </Box>
@@ -164,7 +165,7 @@ export const Example = () => {
                     <Box >
                         <AspectRatio ratio={16 / 9}>
                             <Center>
-                                <Image height={150} borderRadius={10} width={250} source={require('../image/tenda.png')} alt="image" />
+                                <FastImage height={150} borderRadius={10} width={250} source={require('../image/tenda.jpg')} alt="image" />
                             </Center>
                         </AspectRatio>
                     </Box>

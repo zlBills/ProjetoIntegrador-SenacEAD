@@ -75,11 +75,11 @@ class NotificationManager {
             id:1,
             channelId: 'channel-id',
             repeatType: 'time',
-            repeatTime: 5 * 60 * 1000,
+            repeatTime: 15 * 60 * 1000,
             //... You can use all the options from localNotifications
             title: 'VAMOS LER',
             message: 'Descubra o desfecho da Grande Guerra!', // (required)
-            date: new Date(Date.now() + 5 * 1000), // in 5 secs
+            date: new Date(Date.now() + 5 * 5 * 1000), // in 5 secs
             allowWhileIdle: true, // (optional) set notification to work while on doze, default: false
 
         });
@@ -88,11 +88,11 @@ class NotificationManager {
             id:2,
             channelId: 'channel-id',
             repeatType: 'time',
-            repeatTime: 7 * 60 * 1000,
+            repeatTime: 30 * 60 * 1000,
             //... You can use all the options from localNotifications
             title: 'CONHEÇA PIGMEU E OUTROS',
             message: 'Conheça os Maiores Guerreiros de cada Clã!', // (required)
-            date: new Date(Date.now() + 30 * 1000), // in 30 secs
+            date: new Date(Date.now() + 30 * 30 * 1000), // in 30 secs
             allowWhileIdle: true, // (optional) set notification to work while on doze, default: false
 
         });
@@ -101,11 +101,11 @@ class NotificationManager {
             id:3,
             channelId: 'channel-id',
             repeatType: 'time',
-            repeatTime: 9 * 60 * 1000,
+            repeatTime: 60 * 60 * 1000,
             //... You can use all the options from localNotifications
             title: 'VENHA SABER MAIS!',
             message: 'Veja como surgiu a ideia de The Knight!', // (required)
-            date: new Date(Date.now() + 60 * 1000), // in 60 secs
+            date: new Date(Date.now() + 60 * 60 * 1000), // in 60 secs
             allowWhileIdle: true, // (optional) set notification to work while on doze, default: false
             /* Android Only Properties */
 
